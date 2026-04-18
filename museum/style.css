@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: #1e4d4d;
+    color: #f5d97b;
+}
+
+/* ===== LANDING ===== */
+.hero {
+    display: flex;
+    height: 50vh;
+}
+
+.super-big {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hero div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* container kiri */
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* group tombol */
+.btn-group {
+    margin-top: 20px;
+}
+
+/* tombol utama */
+.btn-main {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    background: #f5d97b;
+    color: #1e4d4d;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* tombol kecil */
+.btn-small {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 13px;
+    background: transparent;
+    border: 1px solid #f5d97b;
+    color: #f5d97b;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* hover biar hidup */
+.btn-main:hover {
+    background: white;
+    color: black;
+}
+
+.btn-small:hover {
+    background: #f5d97b;
+    color: #1e4d4d;
+}
+
+/* ===== BUTTON ===== */
+a, button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f5d97b;
+    color: #1e4d4d;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:hover, button:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* ===== FORM (LOGIN & DAFTAR) ===== */
+body {
+    margin: 0;
+    background: #245c57;
+}
+
+/* ini yang bikin tengah */
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ini pembatas biar gak full layar */
+.login-box {
+    width: 300px;
+    text-align: center;
+}
+
+/* input jadi normal */
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+/* tombol sejajar */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* style tombol */
+button, .btn-daftar {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #e5c76b;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* ===== EXHIBITION ===== */
+.gallery {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #2f5d5d;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* ===== DETAIL ===== */
+.detail {
+    padding: 50px;
+    text-align: center;
+}
+
+.detail img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* ===== PROFILE ===== */
+.profile {
+    padding: 50px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 400px;
+}
+
+/* ===== NAV SIMPLE ===== */
+.nav {
+    padding: 20px;
+}
+
+.nav a {
+    margin-right: 10px;
+}
